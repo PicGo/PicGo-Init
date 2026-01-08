@@ -3,14 +3,14 @@ name: release
 on:
   push:
     branches:
-      - master
+      - main
       - alpha
   workflow_dispatch:
     inputs:
       publish_tag:
-        description: 'npm tag to publish with (default: latest)'
+        description: "npm tag to publish with (default: latest)"
         required: false
-        default: 'latest'
+        default: "latest"
 
 jobs:
   build-and-publish:
