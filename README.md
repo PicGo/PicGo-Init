@@ -27,6 +27,27 @@ npx picgo-init plugin my-project
 npx picgo-init username/repo my-project
 ```
 
+### CLI Help
+
+```bash
+Usage: picgo-init <template> [project]
+
+create picgo plugin's development templates
+
+Options:
+  --offline   use cached template
+  --debug     debug mode
+  -h, --help  display help for command
+
+Examples:
+
+  # create a new project with an official template
+  $ picgo-init plugin my-project
+
+  # create a new project straight from a github template
+  $ picgo-init username/repo my-project
+```
+
 ## Development
 
 - Install dependencies:
