@@ -10,7 +10,7 @@ Standalone initializer for PicGo plugin templates. This package replaces the leg
 ## Usage
 
 ```bash
-picgo-init <template> [project]
+npx picgo-init <template> [project]
 ```
 
 Options:
@@ -21,10 +21,10 @@ Examples:
 
 ```bash
 # create a new project with an official template
-picgo-init plugin my-project
+npx picgo-init plugin my-project
 
 # create a new project straight from a GitHub template
-picgo-init username/repo my-project
+npx picgo-init username/repo my-project
 ```
 
 ## Development
